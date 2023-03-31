@@ -38,6 +38,7 @@ sns.barplot (x=df['Duration'],y=df['Price'])
 ![Screenshot 2023-03-31 113458](https://user-images.githubusercontent.com/120380280/229036703-ec0f4175-f96a-45ec-a4ae-dbe9de7fc7de.png)
 
 sns.barplot(x=df["Arrival_Time"],y=df["Price"],data=df)
+
 ![Screenshot 2023-03-31 113637](https://user-images.githubusercontent.com/120380280/229036971-fb8c309e-3cc4-4704-9da9-7e83ddf63bdc.png)
 
 states=df.loc[:,["Duration","Price"]]
@@ -47,6 +48,7 @@ sns.barplot(x=states.index,y="Price",data=states)
 plt.xticks(rotation = 90)
 plt.xlabel=("Duration")
 plt.ylabel=("Price")
+
 plt.show()
 ![Screenshot 2023-03-31 113810](https://user-images.githubusercontent.com/120380280/229037297-4cd57ab2-46cf-4587-82cb-a7bf5445ee36.png)
 
